@@ -1,19 +1,25 @@
-
 <html>
-  <title>
+<body>
+<title>
     First website
   </title>
   
-  <body>
-    <h1>This is my first github pageeeeeeeeeeee</h1>
-  </body>
-  
-  <style>
-    body {
-      background-color:red
-      color:#fff;
-      text-align:center;
-    }
-  </style>
-  
+<p>Click the button to open a new browser window.</p>
+
+<button onclick="myFunction()">Try it</button>
+<button onclick="openWin()">Trt</button>
+
+
+
+<script>
+function myFunction() {
+  window.open("https://pianonic.github.io/TestWebsite/");
+}
+function openWin() {
+  myWindow = window.open("", "myWindow", "width=200,height=100");
+  myWindow.document.write("<p>This is 'myWindow'</p>");
+  }
+</script>
+
+</body>
 </html>
